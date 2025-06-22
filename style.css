@@ -2,21 +2,59 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
   font-size: 14px;
+  font-weight: 400;
 }
 
 body {
-  padding: 1rem;
+  padding: 44px 20px;
   background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+  width: 280px;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 img {
   border-radius: 50%;
   width: 5rem;
+}
+
+.heading {
+font-size: 24px;
+font-weight: 600;
+margin: 0.5rem 0;
+}
+
+.greenText {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+#description {
+font-size: 12px;
+  margin: 1.2rem 0;
+  }
+
+  .social p{
+background-color: hsl(0, 0%, 20%);
+margin: 1rem 2rem;
+height: 2.4rem;
+border-radius: 0.5rem;
+font-weight: 600;
+line-height: 2.4rem;
+  }
+
+  .social p:hover {
+  background-color: hsl(75, 94%, 57%);
+cursor: pointer;  
 }
