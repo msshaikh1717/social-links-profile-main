@@ -57,4 +57,5 @@ line-height: 2.4rem;
   .social p:hover {
   background-color: hsl(75, 94%, 57%);
 cursor: pointer;  
+color: hsl(0, 0%, 8%);
 }
